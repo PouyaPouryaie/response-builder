@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/test"
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    open-in-view: on
+    hibernate:
+      ddl-auto: update
+  application:
+    name: response-builder
+  messages:
+    base-names: messages,common_messages
+server:
+  port: 8181
+default-locale: fa
